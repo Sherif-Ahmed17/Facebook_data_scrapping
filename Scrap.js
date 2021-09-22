@@ -33,10 +33,10 @@ const scrapFun = async(indexed) => {
 
             //logging in
             await page.waitForSelector('input[name="email"]');
-            await page.type('input[name="email"]', "01550113029", {
+            await page.type('input[name="email"]', "write here your email", {
                 delay: DELAY_INPUT
             });
-            await page.type('input[name="pass"]', "shixoo69", {
+            await page.type('input[name="pass"]', "write here your password", {
                 delay: DELAY_INPUT
             });
             await Promise.all([
